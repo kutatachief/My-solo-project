@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles/login.css">
+    <script src="https://kit.fontawesome.com/1b8cc33795.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="container">
+
+            <span><a href="index.html"><i class="fa-solid fa-house"></i></a></span>
+
+            <h1>Have an account ?</h1>
+            <p>Login with your social media account or Username and password</p>
+    
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+                <a href="#"><i class="fa-brands fa-twitter"></i>twitter</a>
+                <a href="#"><i class="fa-brands fa-google"></i>Google</a>
+            </div>
+            
+    
+            <div class="divider">
+                <h2>or</h2>
+            </div>
+
+            <form action="" id="loginForm">
+
+                <div class="error" id="error">Invalid username or password</div>
+
+                <label for="user">Username</label> <br>
+                <input type="text" name="" id="user" placeholder="Username"><br><br>
+
+                <label for="Password">Enter Password</label> <br>
+                <input type="password" name="" id="pass" placeholder="Password"><br><br>
+
+                <input type="submit" value="Login " onclick="login()">
+
+                <h4 class="account"> Don't have an account? <a href="Signup.html" class="sign-up">Sign Up</a></h4> 
+
+            </form>
+               
+        </div>
+    
+    </div>
+
+    <script src="/JS/login.js"></script>
+
+
+</body>
+</html>
