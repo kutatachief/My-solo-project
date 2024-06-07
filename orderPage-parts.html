@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Order Page Mechanic</title>
-    <link rel="stylesheet" href="/styles/orderPage.css">
+    <title>Order Page Parts</title>
+    <link rel="stylesheet" href="/styles/orderPage-parts.css">
     <link rel="stylesheet" href="./styles/map.css">
     <script src="https://kit.fontawesome.com/41cf9c9314.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -167,12 +167,12 @@
          </div>
   
       </div> -->
-      
-      <!-- map starts here -->
-      <div id="map"></div> 
 
-      <!-- orderpage starts  here -->
-      
+        <!-- map starts here -->
+        <div id="map"></div> 
+
+        <!-- orderpage starts  here -->
+
       <div class="row">
         <div class="col-md-12 mb-5  ">
                 
@@ -187,7 +187,7 @@
   
                 <a href="orderPage.html" class="text-decoration-none text-dark">
 
-                  <div class="mec card-h">
+                  <div class="mec">
 
                     <div class="mechanic">.</div>
 
@@ -248,9 +248,13 @@
   
             <form action="">
 
-              <input class="location mb-4 p-3 mb-5" type="text" placeholder="Enter your location">
+              <input class="location mb-4 p-3 mb-5" type="text" id="location" placeholder="Enter your location">
+
+              <input class="location mb-4 p-3 mb-5" type="text" id="parts" placeholder="Enter Parts Needed">
+
+              <input class="location mb-4 p-3 mb-5" type="text" id="PartsDescription" placeholder="Enter Parts Description">
   
-              <input class="mb-5" type="submit" value="Search For Mechanic">
+              <input class="mb-5" type="submit" value="Search For Car Parts">
   
             </form>
                
@@ -260,6 +264,7 @@
         </div>
       </div>
   
+
     </div>
 
     <!-- cards starts here -->
@@ -330,6 +335,8 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn7EJrsc4relQNhrrkYru5xy0FEo1jHQ8&loading=async&callback=initMap">
 </script>
 
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

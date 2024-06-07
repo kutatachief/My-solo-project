@@ -117,14 +117,14 @@
 }
 
 .mec{
-  border-bottom: 2px solid green;
-  background-color: #DDEED6;
+  background-color: #F5F5F5;
   padding: 0px 0px 10px 0px;
   border-radius: 10px;
 }
 
 .pat{
-  background-color: #F5F5F5;
+  border-bottom: 2px solid green;
+  background-color: #DDEED6;
   padding: 0px 0px 10px 0px;
   border-radius: 10px;
 }
